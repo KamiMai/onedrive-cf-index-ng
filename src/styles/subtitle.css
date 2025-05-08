@@ -1,14 +1,13 @@
-video::cue {
-  font-size: 30px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 4px 8px;
-  border-radius: 4px;
-  text-shadow: 0 0 4px black;
-  font-family: "Helvetica Neue", "Arial", sans-serif;
-
-  /* 👇 THÊM CÁI NÀY để phụ đề không bị wrap sớm */
-  white-space: pre-wrap;
-  max-width: 90%;
-  line-height: 1.4;
+/* subtitle.css – chỉnh phụ đề .vtt */
+.plyr__video-wrapper video::cue {
+  font-size: 28px !important;                 /* 👈 Tăng size */
+  background: rgba(0, 0, 0, 0.75) !important; /* 👈 Nền mờ */
+  color: white !important;
+  padding: 4px 6px !important;
+  border-radius: 4px !important;
+  white-space: pre-wrap !important;           /* 👈 Không gãy dòng sớm */
+  max-width: 100% !important;
+  line-height: 1.4 !important;
+  text-shadow: 1px 1px 2px black !important;
+  font-family: "Segoe UI", "Arial", sans-serif !important;
 }
