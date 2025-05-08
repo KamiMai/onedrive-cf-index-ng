@@ -28,3 +28,7 @@ pre[class*='language-'],
 code[class*='language-'] {
   @apply font-mono !important;
 }
+@media (min-width:1024px) {
+.plyr__captions .plyr__caption {
+font-size: 30px !important
+}
